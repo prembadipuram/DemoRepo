@@ -1,0 +1,342 @@
+1.  Evolution of software development
+
+The waterfall aproaach -  1953
+V model 
+The spiral model approach -1990
+Iterative and incremental software process- 1996-1998
+Agile resolution  - 2001      
+and then in 2004 devops was introduced.
+
+
+2. How facebook uses Devops ?
+
+Continous update of the application within 2-3 weeks.
+Facebook accomplishes this through a code ownership model that makes its developers responsible--that includes testing and supporting through production and delivery--for each kernel of code they write and update. It’s through policies like these that Facebook has developed a DevOps culture
+
+
+3.What is Devops?
+
+It is culture.
+Combination of development and Testing + operations team.
+Devops is union of people proccess and product that enables continous delivery of value to end customers.
+
+
+
+
+4. What are the different Devops tools ?
+
+
+1.	Git	Code, Build
+2.	Gradle	Build
+3.	Selenium	Test
+4.	Jenkins	Build, Test, Deploy
+5.	Puppet	Deploy, Operate
+6.	Chef	Deploy, Operate
+7.	Docker	Build, Deploy, Operate
+
+
+what is difference between waterfall and agile and devops.
+ans 
+
+watefall model : Requirement is fixed.
+                 cannot moved back to previous stage.
+                 Change cannot be made at any stage.
+                 If one team is working the other team is idle .
+                 No collorabation .
+
+Agile Model : Requirement is not fixed.
+              provides flexibility
+              small team units can be siloed in agile .
+         
+
+Devops : Requirement is not fixed .
+         Customer can make changes at any point.
+         there is a collabration among team.
+         if one team is belongs to production and one belong to testing both are working together.
+         Large team can be siloed in devops.
+
+
+
+
+
+What are the six phases and what are the outcomes of the the phases.
+1.Requirement gathering and analysis 
+2.Design.
+3.Devlopment
+4.Testing
+5.Deployment
+6.Maintainence
+
+1.Requirement gathering : 
+All the relevant information is collected from the customerto develop a product as per their expectation.
+Business analyst and Project Manager set up a meeting with the customer to gather all the information.
+what the customer wants to build, who will be the end-user, what is the purpose of the product.
+SRS documentation is created.
+
+2.Design and analaysis
+The requirement gathered in the SRS document is used as an input and software architecture that is used for implementing system development is derived.
+Blueprint is created.
+
+output : Architectural plan , database design, screen design, module desigin, program specifiaction.
+
+3.Development 
+The actual coding takes place and source code is written in this phase.
+All the components of the software are implemented in this phase.
+
+Outputs.
+Source code 
+Unit level testing report.
+
+
+4.Testing 
+The product is tested before it is launched.
+Testing starts once the coding is complete and the modules are released for testing. 
+Ihe developed software is tested thoroughly and any defects found are assigned to developers to get them fixed.
+Functional and non functional testing takes places.
+
+
+Output:
+
+Test scenario document.
+Test case design of document.
+Test script : used in selenium.
+Defect report.
+Test execution report. how many test cases executed ?
+
+
+
+
+
+5.Deployment
+First UAT is performed that is user acceptance test.
+If the customer finds the application as expected, then sign off is provided by the customer to go live.
+Then the product is launched into the market.
+
+
+output:
+
+user manual
+release notes
+
+
+6.Maintainence
+After the deployment of a product on the production environment maintenance of the product 
+if any issue comes up and needs to be fixed or any enhancement is to be done is taken care by the developers.
+
+output:
+
+change request
+code change
+
+
+
+
+
+What is epic , user stories , error , bugs,fault : i.e AGILE TERMNILOGY
+
+Epic: It defines the major functionality of application or large body of work
+
+
+
+user stories : Smaller piece of requirement/application.
+               derieved from Epic.
+               
+
+error: Mistakes caused by humans.
+       An Error is a mistake made in the code; that's why we cannot execute or compile code.
+       Raised by Automation and test engineers.
+	
+
+Bugs/defect:  A programming error that causes a program to work poorly, produce incorrect results or crash.
+       deviation between actual and expected result.
+       ISTQB (INTERNATIONAL STANDARD TESTING QUALITY BAORD )
+
+Fault : 
+
+
+
+Advantages and disadavantges of devops
+
+Advantages of Devops.
+Faster product release and faster time to market
+Higher productivity
+Process efficiency
+Shortened production cycles
+Better operational support
+Engaged and motivated staff
+Better Customer experience management
+Clear product vision within the team
+Increased deployment success rates
+Increased product quality
+Better team efficiency
+
+
+Disadvanatge of devops
+
+Demands proper mindset across the company
+Lowered business security by outsourcing the DevOps operations
+Dealing with the legacy system is a challenge
+Practicing security for CI/CD is a separate affair
+Getting the right pool of DevOps expertise is a challenge
+Challenges with the number of tools and switching tools
+Transition challenges (organizational and technical)
+
+
+
+Deleveriables outcomes.
+
+
+V MODEL
+.
+1.Requirement analysis : --------- USER ACCEPTANCE TEST .... BRS , user requrement document
+2.S/W SPECIFICATION  --------------SYSTEM TESTING      ..... SRS,System testing documet. 
+3.HIGH LEVEL DESIGN     ------    INTEGRATION TESTING  ....  HIGHLEVEL DESIGN DOCUMENT,Integration testing document.
+4.LOW LEVEL/DETAILED DESIGIN ----  UNIT TESTING        .....  LOW LEVEL DESIGN DOCUMENT, UNIT TESTING REPORT.
+5.Coding                                                .... Source Code
+
+levels of testing associated with V MODEL :
+1.UAT : USER Acceptance testing. 
+2.SYSTEM TESTING
+3.INTEGRATION TESTING
+4.UNIT TESTING
+
+USER ACCEPTANCE TEST --- apha : Testing done in development phase.
+                         beta: Real time evnvoriment testing.
+
+
+AGILE MODEL 
+concept : scope document,BRS document
+Inception: finalised, project Architectural plan, user interface plan.
+Iterations/coding: Working code, unit testing 
+depolyment : user manual,product version,realse notes
+maintainence : change request, code change
+
+
+
+waterfall model
+1.Requirement :gathering and analysis: SRS documentation is created.
+2.Design.     : Architectural plan , database design, screen design, module desigin, program specifiaction.
+3.Devlopment  : Source code,  Unit level testing report. 
+4.Testing     : Test scenario document,Test case design of document,Test script : used in selenium,Defect report.
+Test execution report.
+5.Deployment  : user manual, release notes
+6.Maintainence: change request, code change
+
+standards : we dont have to change the rights in that.
+
+lean : main motive is they want less input and more output
+       adds value to the customer
+       cutomer priority is highest priority.
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+Difference between agile,V,waterfall,devops
+
+watefall model : Requirement is fixed.
+                 cannot moved back to previous stage.
+                 Change cannot be made at any stage.
+                 If one team is working the other team is idle .
+                 sequential process .
+                 Testing is difficult
+                 Not iteratvie
+                 phases included - 
+                                    1.Requirement 
+                                    2.Design.     
+                                    3.Devlopment  
+                                    4.Testing     
+                                    5.Deployment  
+                                    6.Maintainence
+
+
+Agile Model : Focuses on continuous delivery.
+              Requirement is not fixed.
+              Testing is easier.
+              provides flexibility
+              Iterative model
+              small team units can be siloed in agile .
+              Phase included:
+                            concept 
+                            Inception
+                            Iterations/coding
+                            depolyment 
+                            maintainence 
+
+
+         
+
+Devops : Requirement is not fixed .
+         not iterative
+         Sequential
+         Customer can make changes at any point.
+         there is a collabration among team.
+         if one team is belongs to production and one belong to testing both are working together.
+         Large team can be siloed in devops.
+         code can be done in any laungauge.
+         phases included:
+                              Plan 
+                              Build 
+                              Test
+                              Deploy 
+                              operate 
+                              monitor
+
+
+V : Verification is done at each stage.
+     High perfomance.
+     Testing is easier
+     V shaped model two (verticals)
+     phases included in V models are: 
+                                1.Requirement analysis
+                                2.S/W SPECIFICATION  
+                                3.HIGH LEVEL DESIGN    
+                                4.LOW LEVEL/DETAILED DESIGIN 
+                                5.Coding               
+
+
+
+lean model :
+              Main motive is they want less input and more output.
+             adds value to the customer cutomer priority is highest priority.
+             Requirements are fixed.
+	     Sequentital model
+             phases included in lean model is :
+                                             elimate waste
+                                             delivery fast
+                                             bild quality in
+                                             Respect people
+                                             create knowledge
+                                             differ commitment
+                                             optimze the whole.
+
+
+
+
+
+
+
+
+                                             
+            
+              
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
